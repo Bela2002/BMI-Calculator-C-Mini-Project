@@ -1,11 +1,61 @@
-# BMI-Calculator-C-Mini-Project
+# ⚖️ BMI Calculator (C Mini Project)
 
-This is a C programming mini-project that calculates and evaluates the Body Mass Index (BMI) based on user-provided height and weight. The program includes the following features:
+A simple yet informative **C programming mini-project** that calculates the **Body Mass Index (BMI)** based on the user's height and weight.  
+This console-based program includes user authentication, input validation, and health category analysis.
 
--Accepts weight in kilograms (kg) and grams (g).
--Accepts height in feet and inches.
--Converts height to meters and weight to kilograms for BMI calculation.
--Determines whether the BMI is underweight, normal, or overweight based on standard BMI ranges.
--Suggests the ideal weight range for the given height.
--Validates input to ensure only positive numerical values are accepted.
--Requires a username (9999) and password (1234) for system access.
+---
+
+## 📖 Overview
+
+The BMI Calculator is designed to help users check their weight status and get suggestions for a healthy range based on their height.  
+The application uses **feet/inches** for height and **kg/grams** for weight, and converts them internally for precise calculations.
+
+---
+
+## 🎯 Key Features
+
+- 👤 **Login System**  
+  - Requires valid **username (9999)** and **password (1234)** for access.
+
+- ⚖️ **Weight Input:**  
+  - Accepts **kilograms** and **grams** for weight.
+
+- 📏 **Height Input:**  
+  - Accepts **feet** and **inches** for height.
+
+- 🔄 **Unit Conversion:**  
+  - Converts height to **meters** and weight to **kilograms** for accurate BMI calculation.
+
+- 📊 **BMI Evaluation:**  
+  - Categorizes BMI as:
+    - Underweight (BMI < 18.5)
+    - Normal weight (BMI 18.5–24.9)
+    - Overweight (BMI ≥ 25)
+
+- 🎯 **Ideal Weight Suggestion:**  
+  - Recommends the **healthy weight range** based on the user's height.
+
+- ✅ **Input Validation:**  
+  - Ensures all values entered are **positive numbers**.
+
+---
+
+## 🧮 Formula Used
+
+**BMI = weight (kg) / [height (m)]²**
+
+---
+
+## 🛠️ Built With
+
+- 📘 C Programming Language
+- 🖥️ Console Interface (Standard Input/Output)
+
+---
+
+## 🚀 How to Run
+
+1. Open the file in a C IDE or terminal.
+2. Compile the source code:
+   ```bash
+   gcc bmi_calculator.c -o bmi_calculator
